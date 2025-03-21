@@ -13,10 +13,10 @@ public class PracticeProblem {
 	}
 
 	//2
-	public static int find(String[] array2, String string){
+	public static int findLast(String[] array2, String str){
 		int index = -1;
 		for (int i = 0; i < array2.length; i++){
-			if (string.equals(array2[i])){
+			if (str.equals(array2[i])){
 				index = i;
 			{
 		{
