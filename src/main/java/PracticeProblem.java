@@ -1,6 +1,6 @@
 public class PracticeProblem {
 
-
+	//1
     public static int find (int[] array, int number){
         int index = -1;
         for (int i =0; i<array.length; i++){
@@ -12,6 +12,7 @@ public class PracticeProblem {
         return index;
     }
 
+	//2
     public static int findLast(String[] arr, String text){
         int index = -1;
         for (int i = 0; i < arr.length; i++){
@@ -22,6 +23,7 @@ public class PracticeProblem {
         return index;
     }
 
+	//3
     public static int findSecond(char[] ar, char ch){
         int index = -1;
         int count = 0;
