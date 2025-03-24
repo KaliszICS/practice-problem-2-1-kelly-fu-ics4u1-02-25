@@ -25,7 +25,7 @@ public class PracticeProblem {
 
 
 	//3
-	public static int findEcond(char[] array3, char character){
+	public static int findScond(char[] array3, char character){
 		int index = -1;
 		int count = 0;
 		for (int i = 0; i < array3.length; i++){
